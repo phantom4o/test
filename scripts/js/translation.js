@@ -6,7 +6,7 @@ function toggleLanguage() {
 }
 
 function updateContent() {
-    fetch('json/data.json')
+    fetch('scripts/json/data.json')
         .then(response => response.json())
         .then(data => {
             document.getElementById("element1").textContent = data[currentLanguage]["element1"];
