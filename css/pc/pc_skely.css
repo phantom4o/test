@@ -1,0 +1,69 @@
+/* For PC version */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll; 
+  scroll-behavior: smooth; 
+}
+
+nav, section, footer {
+  border: solid red 2px;
+}
+
+nav {
+  background-color: aqua;
+  height: 50px;
+  width: 100vw;
+  position: fixed;
+  top: 0px;
+  z-index: 10;
+}
+
+section.holder {
+  position: relative;
+  top: 50px;
+  background-color: rgb(3, 70, 70);
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  scroll-snap-type: y mandatory;
+  z-index: 1;
+}
+
+section[class^="sec"] {
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+section.sec1 {
+  background-color: antiquewhite;
+}
+
+section.sec2 {
+  background-color: rgb(165, 97, 8);
+}
+
+section.sec3 {
+  background-color: #2ecc71;
+}
+
+section.sec4 {
+  background-color: #3498db;
+}
+
+section.sec5 {
+  background-color: #f1c40f;
+}
+
+section.sec6 {
+  background-color: #e74c3c;
+}
+
+@media (min-width: 601px) {
+  
+}
