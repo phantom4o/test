@@ -1,9 +1,9 @@
 {
     "ENG": {
-        "element1": "English content 1",
-        "element2": "English content 2",
-        "element3": "English content 3",
-        "element4": "English content 4",
+        "element1": "Home",
+        "element2": "About Us",
+        "element3": "Certification",
+        "element4": "Contact Us",
         "element5": "English content 5",
         "element6": "English content 6",
         "element7": "English content 7",
@@ -42,10 +42,10 @@
         "element40": "English content 40"
     },
     "BGN": {
-        "element1": "Bulgarian content 1",
-        "element2": "Bulgarian content 2",
-        "element3": "Bulgarian content 3",
-        "element4": "Bulgarian content 4",
+        "element1": "Начало",
+        "element2": "За нас",
+        "element3": "Сертификати",
+        "element4": "Контакти",
         "element5": "Bulgarian content 5",
         "element6": "Bulgarian content 6",
         "element7": "Bulgarian content 7",

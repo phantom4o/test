@@ -1,7 +1,7 @@
 /* For PC version */
 * {
   box-sizing: border-box;
-  /* border: solid red 2px; */
+  border: solid red 2px;
 }
 
 body {
@@ -18,39 +18,31 @@ nav {
   top: 0px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
-  height: 50px;
+  justify-content: end;
+  column-gap: 40px;
+  height: 60px;
   width: 100vw;
   padding: 0 25px;
   z-index: 10;
   background-color: aqua;
 }
+nav img{
+  height: 110%;
+  scale: 1.2;
+  position: absolute;
+  left: 25px;
+}
 
-div.hamburger-icon {
+div.hamburger-icon, i.fa-globe{
   font-size: 24px;
   cursor: pointer;
 }
 
-aside {
-  position: fixed;
-  top: 50px;
-  right: -780px;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-  height: 100vh;
-  width: 50vw;
-  padding: 60px;
-  transition: right 0.5s;
-  z-index: 2;
-  background-color: red;
-}
 
 section.holder {
   position: relative;
-  top: 50px;
+  top: 60px;
   background-color: rgb(3, 70, 70);
   height: auto;
   display: flex;
@@ -87,7 +79,51 @@ section.sec5 {
 section.sec6 {
   background-color: #e74c3c;
 }
+/* ASIDE */
+aside.side-menu {
+  position: fixed;
+  top: 60px;
+  right: -1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  height: 100vh;
+  width: 35vw;
+  padding: 25px;
+  transition: right 0.5s;
+  z-index: 2;
+  background-color: rgb(0, 132, 255);
+}
+li.aside-main-li {
+  margin-bottom: 25px; 
+  list-style-type: none;
+}
+li.aside-main-li ul li{
+  margin: 10px 0;
+}
+li.aside-main-li ul li{
+  list-style-type: disc;
+}
+ul.aside-ul li a,
+ul.aside-ul li ul li a,
+li.aside-main-li i{
+  text-decoration:none;
+  color: rgb(95, 83, 83);
+  font-size: 25px;
+}
 
+ul.abt_small_secntion,
+ul.cerf_small_secntio{
+  display: none;
+}
+ul.abt_small_secntion li a:hover,
+ul.cerf_small_secntion li a:hover{
+  text-decoration:underline;
+  color: azure;
+}
+
+/* FOOTER */
 footer {
   position: fixed;
   bottom: 0px;

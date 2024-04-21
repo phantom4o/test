@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="src/img/image-removebg-preview.png" type="image/x-icon">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
     <!-- Phone -->
     <link rel="stylesheet" href="css/phone/phone_skely.css">
@@ -12,12 +13,45 @@
 </head>
 <body>
     <nav>
+        <img src="src/img/image-removebg-preview.png" alt="logo">
+        <i class="fa fa-globe" onclick="toggleLanguage()"></i>
         <div class="hamburger-icon" onclick="toggleMenu()">
             <i class="fa fa-bars" id="barsIcon"></i>
             <i class="fa fa-close" id="closeIcon" style="display: none;"></i>
         </div>
     </nav>
-    <aside id="side-menu"></aside>
+    
+    <!-- work HERE -->
+    
+    <aside class="side-menu">
+        <ul class="aside-ul">
+            <li class="aside-main-li"><a href="#" id="element1">Home</a></li>
+            <li class="aside-main-li"><a href="#" id="element2">About Us</a> <i id="drop-abt" class="fa fa-sort-down"></i>
+                <ul class="abt_small_secntion">
+                    <li><a href="#">Monastery fields</a></li>
+                    <li><a href="#">Business Description</a></li>
+                    <li><a href="#">Our vision</a></li>
+                    <li><a href="#">Price range and conditions</a></li>
+                </ul>
+            </li>
+            <li class="aside-main-li"><a href="#" id="element3">Certification</a> <i id="drop-cert" class="fa fa-sort-down"></i>
+                <ul class="cerf_small_secntion">
+                    <li><a href="#">Monastery fields</a></li>
+                    <li><a href="#">Monastery fields</a></li>
+                    <li><a href="#">Monastery fields</a></li>
+                    <li><a href="#">Monastery fields</a></li>
+                </ul>
+            </li>
+            <li class="aside-main-li"><a href="#" id="element4">Contact Us</a></li>
+        </ul>
+    </aside>
+
+
+
+
+    <!-- work HERE -->
+
+
     <section class="holder">
     <section class="sec1"></section>
     <footer></footer>
