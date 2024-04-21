@@ -1,11 +1,10 @@
 /* For mobile devices */
 @media (max-width: 600px) {
-    ul.aside-ul li a,
-    ul.aside-ul li ul li a,
-    li.aside-main-li i{
-      text-decoration:none;
-      color: rgb(255, 255, 255);
-      font-size: 10px;
+    ul.aside-ul li.aside-main-li  a,
+    li.aside-main-li  i.fa-sort-down,
+    ul.abt_small_secntion li a
+    {
+      font-size: 15px;
     }
     ul.aside-ul {
         padding-left: 0px;

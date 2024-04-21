@@ -99,7 +99,7 @@ li.aside-main-li {
   margin-bottom: 25px; 
   list-style-type: none;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 li.aside-main-li ul li{
   margin: 10px 0;
@@ -109,7 +109,7 @@ li.aside-main-li ul li{
 }
 ul.aside-ul li a,
 ul.aside-ul li ul li a,
-li.aside-main-li i{
+li.aside-main-li span i{
   text-decoration:none;
   color: rgb(255, 255, 255);
   font-size: 25px;
