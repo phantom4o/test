@@ -41,3 +41,13 @@ document.getElementById('element3').addEventListener('click', function () {
     }
 });
 
+
+// scroll function
+
+function scrollToElement(className) {
+    var element = document.querySelector(className);
+    if (element) {
+        element.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
+    }
+}
+

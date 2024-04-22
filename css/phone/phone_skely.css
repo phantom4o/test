@@ -4,10 +4,15 @@
     li.aside-main-li  i.fa-sort-down,
     ul.abt_small_secntion li a
     {
-      font-size: 15px;
+      font-size: 20px;
     }
     ul.aside-ul {
         padding-left: 0px;
         
+    }
+    body aside.side-menu{
+      background-color: red;
+      width: 160px;
+      padding: 30px 15px 15px 15px;
     }
 }

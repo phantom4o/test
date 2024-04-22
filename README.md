@@ -1,4 +1,4 @@
-# test
+# BG_GR
 
 ## Responsive Design CSS Media Queries
 
@@ -62,3 +62,9 @@
 
 
 ```
+## what I am thinking and doing
+
+- I am thingk for sec1 and sec2 to be like this, so when someone visit the page is small banner sec1
+and 3 icons with small info to get the viewers intrested.
+
+![Example](https://bootstrapmade.com/content/templatefiles/Logis/Logis-bootstrap-website-template.webp)
