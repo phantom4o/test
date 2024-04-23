@@ -42,7 +42,8 @@ div.leftSide p{
     margin: 30px 0 0 0;
 }
 div.leftSide h1{
-    font-size:  58px;
+    z-index: 1;
+    font-size: 50px;
     margin: 0px;
     width: 200px;
 }

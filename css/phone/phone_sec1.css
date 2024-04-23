@@ -20,7 +20,6 @@
     section.holder section.sec1 div.rightSide img{
         height: 280px;
         width: 240px;
-        border-radius: 30% 70% 70% 30% / 30% 49% 51% 70%;
-        
+        border-radius: 30% 70% 70% 30% / 30% 49% 51% 70% ;
     }
 }

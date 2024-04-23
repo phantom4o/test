@@ -1,0 +1,40 @@
+section.sec2 {
+    background-color: #063B39;
+    height: 35vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+  }
+  section.sec2 div.box1,
+  section.sec2 div.box2,
+  section.sec2 div.box3 {
+    border: black solid 3px;
+    width: 350px;
+    max-height: 200px;
+    border-radius: 15px;
+    padding: 0 20px 5px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(214, 214, 214);
+  }
+  section.sec2 div i{
+    background-color: black;
+    border-radius: 15px;
+    padding: 7px 12px;
+    color: white;
+    position: relative;
+    font-size: 50px;
+    top: -40px;
+  }
+  section.sec2 div h2,
+  section.sec2 div h3,
+  section.sec2 div h4{
+    margin: 0px 2px;
+    font-size: 18px;
+  }
+  section.sec2 div p{
+    font-size: 15px;
+  }

@@ -58,14 +58,6 @@ section[class^="sec"] {
   scroll-snap-align: start;
 }
 
-section.sec1 {
-  height: 70vh;
-}
-
-section.sec2 {
-  background-color: rgb(165, 97, 8);
-}
-
 section.sec3 {
   background: rgb(6,59,57);
 background: linear-gradient(308deg, rgba(6,59,57,1) 0%, rgba(138,255,251,1) 100%);
