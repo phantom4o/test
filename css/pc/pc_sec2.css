@@ -12,9 +12,9 @@ section.sec2 {
   section.sec2 div.box3 {
     border: black solid 3px;
     width: 350px;
-    max-height: 200px;
+    height: 220px;
     border-radius: 15px;
-    padding: 0 20px 5px 20px;
+    padding: 0 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,7 +23,7 @@ section.sec2 {
   section.sec2 div i{
     background-color: black;
     border-radius: 15px;
-    padding: 7px 12px;
+    padding: 10px 12px;
     color: white;
     position: relative;
     font-size: 50px;
