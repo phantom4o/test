@@ -5,7 +5,7 @@ section.sec1{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 70vh;
+    height: 65vh;
 }
 section.sec1 div.leftSide{
     height: 100%;
@@ -31,7 +31,7 @@ div.rightSide img{
     height: 400px;
     width: 300px;
     object-fit: cover;
-    border-radius: 25px;
+    border-radius: 31% 69% 23% 77% / 66% 18% 82% 34%;
 }
 div.leftSide img{
     height: 150px;

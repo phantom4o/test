@@ -42,7 +42,7 @@ document.getElementById('element3').addEventListener('click', function () {
 });
 
 
-// scroll function
+// GO To animation
 
 function scrollToElement(className) {
     var element = document.querySelector(className);

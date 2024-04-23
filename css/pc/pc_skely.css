@@ -50,6 +50,7 @@ section.holder {
   flex-direction: column;
   scroll-snap-type: y mandatory;
   z-index: 1;
+  overflow-x: hidden;
 }
 
 section[class^="sec"] {
