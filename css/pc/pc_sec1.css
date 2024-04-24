@@ -1,52 +1,53 @@
-section.sec1{
-    background: rgb(6,59,57);
-    background: linear-gradient(18deg, rgba(6,59,57,1) 0%, rgba(138,255,251,1) 100%);
+section.sec1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     height: 65vh;
+    background: rgb(6, 59, 57);
+    background: linear-gradient(18deg, rgba(6, 59, 57, 1) 0%, rgba(138, 255, 251, 1) 100%);
 }
-section.sec1 div.leftSide{
-    height: 100%;
-    width: 50%;
-    padding: 30px 100px;
+
+section.sec1 div.leftSide {
     display: flex;
     flex-direction: column;
     justify-content: start;
-
+    align-items: flex-start;
+    height: 100%;
+    width: 50%;
+    padding: 30px 100px;
     color: white;
 }
-section.sec1 div.rightSide{
+
+section.sec1 div.rightSide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100%;
     width: 40%;
     padding: 30px 50px;
-    display: flex;
-    justify-content: center;
     color: white;
-
 }
 
-div.rightSide img{
+div.rightSide img {
+    width: auto;
     height: 400px;
-
     object-fit: cover;
-    /* border-radius: 31% 69% 23% 77% / 66% 18% 82% 34%; */
 }
-div.leftSide img{
-    height: 150px;
+
+div.leftSide img {
     width: 220px;
+    height: 150px;
 }
-div.leftSide p{
+
+div.leftSide h1 {
+    width: 200px;
+    font-size: 50px;
+    margin: 0;
+    z-index: 1;
+}
+
+div.leftSide p {
     font-size: 20px;
     margin: 30px 0 0 0;
 }
-div.leftSide h1{
-    z-index: 1;
-    font-size: 50px;
-    margin: 0px;
-    width: 200px;
-}
-
-
-

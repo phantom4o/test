@@ -1,130 +1,130 @@
-/* For PC version */
 * {
-  box-sizing: border-box;
-  /* border: solid red 2px; */
+    box-sizing: border-box;
+    /* border: solid red 2px; */
 }
 
 body {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
-  overflow-y: scroll; 
-  overflow-x: hidden;
-  scroll-behavior: smooth; 
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 nav {
-  position: fixed;
-  top: 0px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: end;
-  column-gap: 40px;
-  height: 60px;
-  width: 100vw;
-  padding: 0 30px;
-  z-index: 10;
-  background-color: #063B39;
-  color: white;
-}
-nav img{
-  height: 110%;
-  scale: 1.2;
-  position: absolute;
-  left: 25px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    column-gap: 40px;
+    height: 60px;
+    width: 100vw;
+    padding: 0 30px;
+    z-index: 10;
+    background-color: #063B39;
+    color: white;
 }
 
-div.hamburger-icon, i.fa-globe{
-  font-size: 24px;
-  cursor: pointer;
+nav img {
+    position: absolute;
+    left: 25px;
+    height: 110%;
+    transform: scale(1.2);
 }
 
+div.hamburger-icon,
+i.fa-globe {
+    font-size: 24px;
+    cursor: pointer;
+}
 
 section.holder {
-  position: relative;
-  top: 60px;
-  background-color: rgb(3, 70, 70);
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  scroll-snap-type: y mandatory;
-  z-index: 1;
-  overflow-x: hidden;
+    position: relative;
+    top: 60px;
+    background-color: rgb(3, 70, 70);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    scroll-snap-type: y mandatory;
+    z-index: 1;
+    overflow-x: hidden;
 }
 
 section[class^="sec"] {
-  height: 100vh;
-  scroll-snap-align: start;
+    height: 100vh;
 }
 
 section.sec3 {
-  background: rgb(6,59,57);
-background: linear-gradient(308deg, rgba(6,59,57,1) 0%, rgba(138,255,251,1) 100%);
+    background: rgb(6, 59, 57);
+    background: linear-gradient(308deg, rgba(6, 59, 57, 1) 0%, rgba(138, 255, 251, 1) 100%);
 }
 
 section.sec4 {
-  background-color: #3498db;
+    background-color: #3498db;
 }
 
 section.sec5 {
-  background-color: #f1c40f;
+    background-color: #f1c40f;
 }
 
 section.sec6 {
-  background-color: #e74c3c;
+    background-color: #e74c3c;
 }
+
 /* ASIDE */
 aside.side-menu {
-  position: fixed;
-  top: 60px;
-  right: -1000px;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-  height: 100vh;
-  width: 250px;
-  padding: 30px 15px 15px 15px;
-  transition: right 0.5s;
-  z-index: 2;
-  background-color: #416962;
+    position: fixed;
+    top: 60px;
+    right: -1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 100vh;
+    width: 250px;
+    padding: 30px 15px 15px 15px;
+    transition: right 0.5s;
+    z-index: 2;
+    background-color: #416962;
 }
+
 li.aside-main-li {
-  margin-bottom: 25px; 
-  list-style-type: none;
-  display: flex;
-  flex-direction: column;
+    margin-bottom: 25px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
 }
-li.aside-main-li ul li{
-  margin: 10px 0;
+
+li.aside-main-li ul li {
+    margin: 10px 0;
+    list-style-type: none;
 }
-li.aside-main-li ul li{
-  list-style-type: none;
-}
+
 ul.aside-ul li a,
 ul.aside-ul li ul li a,
-li.aside-main-li span i{
-  text-decoration: none;
-  color: #C7F8B4;
-  font-size: 25px;
+li.aside-main-li span i {
+    text-decoration: none;
+    color: #c7f8b4;
+    font-size: 25px;
 }
 
 ul.abt_small_secntion,
-ul.cerf_small_secntio{
-  display: none;
+ul.cerf_small_secntio {
+    display: none;
 }
+
 ul.abt_small_secntion li a:hover,
-ul.cerf_small_secntion li a:hover{
-  text-decoration:underline;
-  color: azure;
+ul.cerf_small_secntion li a:hover {
+    text-decoration: underline;
+    color: azure;
 }
 
 /* FOOTER */
 footer {
-  display: flex;
-  flex-direction: row;
-  height: 50px;
-  width: 100vw;
-  background-color: chartreuse;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 100vw;
+    background-color: chartreuse;
 }
