@@ -1,7 +1,8 @@
 @media (max-width: 600px) {
-    section.sec3{
+    section.holder section.sec3{
         position: relative;
         height: auto;
+        padding-bottom: 20px;
     }
     section.holder section.sec3 div.title-box {
         position: relative;
@@ -45,6 +46,6 @@
         margin: 10px 0;
     }
     div.bottom-part div.right-side p{
-        font-size: 13px;
+        font-size: 12px;
     }
 }
