@@ -1,11 +1,12 @@
 @media (max-width: 600px) {
     section.holder section.sec1 {
-        flex-direction: column;
+        flex-direction: row;
     }
     
     section.holder section.sec1 div.leftSide {
         padding: 0;
-        order: 2;
+        order: 1;
+        justify-content: center;
     }
     
     section.holder section.sec1 div.leftSide img {
@@ -26,7 +27,7 @@
     section.holder section.sec1 div.rightSide {
         align-items: center;
         padding: 0;
-        order: 1;
+        order: 2;
     }
     
     section.holder section.sec1 div.rightSide img {

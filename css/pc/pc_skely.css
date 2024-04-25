@@ -29,7 +29,7 @@ nav {
 nav img {
     position: absolute;
     left: 25px;
-    height: 110%;
+    height: 80%;
     transform: scale(1.2);
 }
 
@@ -55,10 +55,6 @@ section[class^="sec"] {
     height: 100vh;
 }
 
-section.sec3 {
-    background: rgb(6, 59, 57);
-    background: linear-gradient(308deg, rgba(6, 59, 57, 1) 0%, rgba(138, 255, 251, 1) 100%);
-}
 
 section.sec4 {
     background-color: #3498db;
