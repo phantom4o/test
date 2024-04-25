@@ -1,4 +1,4 @@
-section.sec1 {
+header {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -10,7 +10,7 @@ section.sec1 {
 background: linear-gradient(0deg, rgba(6,59,57,1) 0%, rgba(138,255,251,1) 100%);
 }
 
-section.sec1 div.leftSide {
+header div.leftSide {
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -21,7 +21,7 @@ section.sec1 div.leftSide {
     color: white;
 }
 
-section.sec1 div.rightSide {
+header div.rightSide {
     display: flex;
     justify-content: center;
     align-items: center;

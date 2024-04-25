@@ -1,36 +1,36 @@
 @media (max-width: 600px) {
-    section.holder section.sec1 {
+    section.holder header {
         flex-direction: row;
     }
     
-    section.holder section.sec1 div.leftSide {
+    section.holder header div.leftSide {
         padding: 0;
         order: 1;
         justify-content: center;
     }
     
-    section.holder section.sec1 div.leftSide img {
+    section.holder header div.leftSide img {
         height: 111px;
         width: 170px;
         display: none;
     }
     
-    section.holder section.sec1 div.leftSide p {
+    section.holder header div.leftSide p {
         font-size: 13px;
     }
     
-    section.holder section.sec1 div.leftSide h1 {
+    section.holder header div.leftSide h1 {
         font-size: 40px;
         padding-top: 5px;
     }
     
-    section.holder section.sec1 div.rightSide {
+    section.holder header div.rightSide {
         align-items: center;
         padding: 0;
         order: 2;
     }
     
-    section.holder section.sec1 div.rightSide img {
+    section.holder header div.rightSide img {
         height: 200px;
         border-radius: 30% 70% 70% 30% / 30% 49% 51% 70%;
     }

@@ -57,18 +57,18 @@ div.left-side img.map2{
     object-fit: contain;
     box-shadow: 21px 11px 32px -3px rgb(49, 49, 49);
 }
-div.right-side{
+article.right-side{
     height: 100%;
     width: 50%;
 }
-div.right-side h6{
+article.right-side h6{
     font-size: 25px;
     width: 250px;
     margin: 50px 0 25px;
     color: #063B39;
 
 }
-div.right-side div.p-text-holder{
+article.right-side p{
     width: 600px;
     color: black;
     font-size: 20px;
