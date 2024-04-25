@@ -1,0 +1,50 @@
+@media (max-width: 600px) {
+    section.sec3{
+        position: relative;
+        height: auto;
+    }
+    section.holder section.sec3 div.title-box {
+        position: relative;
+        height: 110px;
+    }
+    section.holder section.sec3 div.title-box img{
+        height: 120px;
+    }
+     section.holder section.sec3 div.title-box h5{
+        font-size: 20px;
+        margin-left: 8px;
+    }
+     section.holder section.sec3 div.bottom-part{
+        top: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    div.bottom-part div.left-side{
+        align-items: center;
+        height: 200px;
+        width: 100%;
+    }
+    div.bottom-part div.left-side img.map1{
+        top: -30px;
+        right: 5px;
+        height: 85px;
+        width: 135px;
+    }
+    div.bottom-part div.left-side img.map2{
+        top: 0px;
+        left: 0px;
+        height: 121px;
+        width: 287px;
+    }
+    div.bottom-part div.right-side{
+        height: none;
+        width: 80%;
+    }
+    div.bottom-part div.right-side h6{
+        font-size: 18px;
+        margin: 10px 0;
+    }
+    div.bottom-part div.right-side p{
+        font-size: 13px;
+    }
+}

@@ -4,10 +4,8 @@ header {
     justify-content: center;
     align-items: center;
     height: 60vh;
-    /* background: rgb(6, 59, 57);
-    background: linear-gradient(18deg, rgba(6, 59, 57, 1) 0%, rgba(138, 255, 251, 1) 100%); */
     background: rgb(6,59,57);
-background: linear-gradient(0deg, rgba(6,59,57,1) 0%, rgba(138,255,251,1) 100%);
+    background: linear-gradient(0deg, rgba(6,59,57,1) 0%, rgba(138,255,251,1) 100%);
 }
 
 header div.leftSide {

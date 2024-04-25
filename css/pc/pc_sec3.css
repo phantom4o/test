@@ -9,8 +9,10 @@ section.sec3 div.title-box{
     position: absolute;
     display: flex;
     align-items: center;
-    height: 220px;
     z-index: 1;
+}
+div.title-box img{
+    height: 250px;
 }
 div.title-box h5{
     position: absolute;
@@ -22,10 +24,11 @@ div.title-box h5{
 }
 section.sec3 div.bottom-part{
     position: relative;
-    top: 40px;
+    top: 50px;
     width: 100vw;
     height: 616px;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
 }
@@ -54,22 +57,22 @@ div.left-side img.map2{
     position: relative;
     left: 50px;
     top: 200px;
-    object-fit: contain;
+    object-fit:cover;
     box-shadow: 21px 11px 32px -3px rgb(49, 49, 49);
 }
-article.right-side{
+div.right-side{
     height: 100%;
     width: 50%;
 }
-article.right-side h6{
+div.right-side h6{
     font-size: 25px;
     width: 250px;
     margin: 50px 0 25px;
     color: #063B39;
 
 }
-article.right-side p{
-    width: 600px;
+div.right-side p{
+    width: 90%;
     color: black;
     font-size: 20px;
 }
