@@ -1,6 +1,6 @@
 section.sec3 {
-    background: rgb(6, 59, 57);
-    background: linear-gradient(308deg, rgba(6, 59, 57, 1) 0%, rgba(138, 255, 251, 1) 100%);
+    background: rgb(6,59,57);
+    background: linear-gradient(0deg, rgba(6,59,57,1) 0%, rgba(138,255,251,1) 100%);
     display: flex;
     flex-direction: column;
     height: 100vh; /* if remove the height */
@@ -9,6 +9,7 @@ section.sec3 div.title-box{
     position: absolute;
     display: flex;
     align-items: center;
+    height: 250px;
     z-index: 1;
 }
 div.title-box img{
@@ -32,14 +33,14 @@ section.sec3 div.bottom-part{
     align-items: center;
     justify-content: center;
 }
-div.left-side{
+div.sec3-left-side{
     position: relative;
     height: 100%;
     width: 50%;
     display: flex;
     flex-direction: column;
 }
-div.left-side img.map1{
+section.sec3 div.sec3-left-side img.map1{
     position: absolute;
     top: 100px;
     right: 140px;
@@ -50,7 +51,7 @@ div.left-side img.map1{
     
 
 }
-div.left-side img.map2{
+section.sec3 div.sec3-left-side img.map2{
     height: 340px;
     width: 450px;
     border-radius: 25px;
@@ -60,18 +61,18 @@ div.left-side img.map2{
     object-fit:cover;
     box-shadow: 21px 11px 32px -3px rgb(49, 49, 49);
 }
-div.right-side{
+div.sec3-right-side{
     height: 100%;
     width: 50%;
 }
-div.right-side h6{
+div.sec3-right-side h6{
     font-size: 25px;
     width: 250px;
     margin: 50px 0 25px;
     color: #063B39;
 
 }
-div.right-side p{
+div.sec3-right-side p{
     width: 90%;
     color: black;
     font-size: 20px;

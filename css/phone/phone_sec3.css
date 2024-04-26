@@ -20,32 +20,32 @@
         display: flex;
         flex-direction: column;
     }
-    div.bottom-part div.left-side{
+    div.bottom-part div.sec3-left-side{
         align-items: center;
         height: 200px;
         width: 100%;
     }
-    div.bottom-part div.left-side img.map1{
+    body div.bottom-part div.sec3-left-side img.map1{
         top: 80px;
         right: 5px;
         height: 85px;
         width: 135px;
     }
-    div.bottom-part div.left-side img.map2{
+    body div.bottom-part div.sec3-left-side img.map2{
         top: 0px;
         left: 0px;
         height: 121px;
         width: 287px
     }
-    div.bottom-part div.right-side{
+    div.bottom-part div.sec3-right-side{
         height: none;
         width: 95%;
     }
-    div.bottom-part div.right-side h6{
+    div.bottom-part div.sec3-right-side h6{
         font-size: 18px;
         margin: 15px 0;
     }
-    div.bottom-part div.right-side p{
+    div.bottom-part div.sec3-right-side p{
         font-size: 14px;
     }
 }
