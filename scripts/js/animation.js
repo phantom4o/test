@@ -1,25 +1,24 @@
-// Aside bar sliding showing disapearing
-
+// Aside bar sliding showing disappearing
 function toggleMenu() {
     var barsIcon = document.getElementById('barsIcon');
     var closeIcon = document.getElementById('closeIcon');
     var myNav = document.querySelector('.side-menu');
 
-    if (barsIcon.style.display === 'none' || barsIcon.style.display === '') {
-        barsIcon.style.display = 'inline-block';
-        closeIcon.style.display = 'none';
-        myNav.style.right = '-1000px';
-    } else {
+    if (myNav.style.right === '-1000px' || myNav.style.right === '') {
         barsIcon.style.display = 'none';
         closeIcon.style.display = 'inline-block';
         myNav.style.right = '0';
-
-        // Hiding dropdown sections when clicking bars
-        var abtSection = document.querySelector('.abt_small_secntion');
-        var cerfSection = document.querySelector('.cerf_small_secntion');
-        abtSection.style.display = 'none';
-        cerfSection.style.display = 'none';
+    } else {
+        barsIcon.style.display = 'inline-block';
+        closeIcon.style.display = 'none';
+        myNav.style.right = '-1000px';
     }
+
+    // Hiding dropdown sections when clicking bars
+    var abtSection = document.querySelector('.abt_small_secntion');
+    var cerfSection = document.querySelector('.cerf_small_secntion');
+    abtSection.style.display = 'none';
+    cerfSection.style.display = 'none';
 }
 
 // Aside bar Section drop down

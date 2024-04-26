@@ -16,7 +16,7 @@
         margin-left: 8px;
     }
      section.holder section.sec3 div.bottom-part{
-        top: 0px;
+        top: -20px;
         display: flex;
         flex-direction: column;
     }
@@ -26,7 +26,7 @@
         width: 100%;
     }
     div.bottom-part div.left-side img.map1{
-        top: -30px;
+        top: 80px;
         right: 5px;
         height: 85px;
         width: 135px;
@@ -35,17 +35,17 @@
         top: 0px;
         left: 0px;
         height: 121px;
-        width: 287px;
+        width: 287px
     }
     div.bottom-part div.right-side{
         height: none;
-        width: 80%;
+        width: 95%;
     }
     div.bottom-part div.right-side h6{
         font-size: 18px;
-        margin: 10px 0;
+        margin: 15px 0;
     }
     div.bottom-part div.right-side p{
-        font-size: 12px;
+        font-size: 14px;
     }
 }
