@@ -1,1 +1,49 @@
-@media (max-width: 600px) {}
+@media (max-width: 600px) {
+    section.holder section.sec4{
+        position: relative;
+        height: auto;
+    }
+    section.holder section.sec4 div.title-box {
+        position: relative;
+        height: 110px;
+    }
+    section.holder section.sec4 div.title-box img{
+        height: 120px;
+    }
+     section.holder section.sec4 div.title-box h5{
+        font-size: 20px;
+        margin-left: 10px;
+        width: 150px;
+    }
+    section.holder section.sec4 div.bottom-part{
+        justify-content: start;
+        height: 100%;
+        top: -20px;
+        display: flex;
+        flex-direction: column;
+    }
+    section.holder section.sec4 div.bottom-part div.sec4-left-side{
+        margin-top: 35px;
+        width: 100%;
+        order: 2;
+        padding: 0 0 20px 15px;
+    }
+    section.holder section.sec4 div.bottom-part div.sec4-right-side{
+        justify-content: end;
+        width: 100%;
+        height: 100px;
+        object-fit: none;
+    }
+    section.holder section.sec4 div.bottom-part div.sec4-right-side img{
+        height: 150px;
+        width: 192px;
+       margin-right:25px;
+    }
+    section.holder section.sec4 div.sec4-left-side h6{
+        font-size: 15px;
+    }
+    section.holder section.sec4 div.sec4-left-side p{
+        font-size: 16px;
+        width: 350px;
+    }
+}
