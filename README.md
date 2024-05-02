@@ -64,4 +64,4 @@
 ```
 ## what I am thinking and doing
 
-- when i am done I need to make a script that when I switch to BGN the letters to get smaller because is over flowing everthing.
+- on sec5 make it to have underline swicher on the hHolders p under. and make a script so each of the ps to shows the others p in the .pHolder and when its clicked other to be hiden.

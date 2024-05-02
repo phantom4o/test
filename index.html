@@ -121,31 +121,28 @@
             <h5 id="element30"></h5>
         </div>
         <div class="bottom-part">
-        <div class="sec4-left-side">
+        <div class="sec5-left-side">
             <img src="src/img/undraw_Shared_goals_re_jvqd-removebg-preview.png">
         </div>
-        <div class="sec4-right-side">
-            <div class="hHolders">
-                <h6 id="element31"></h6>
-                <h6 id="element32"></h6>
-                <h6 id="element33"></h6>
-                <h6 id="element34"></h6>
-            </div>
-            <div class="pHolder">
+       <div class="sec5-right-side">
+        <div class="hHolders">
+            <p id="element31" class="holder-item">mission</p>
+            <p id="element32" class="holder-item">vision</p>
+            <p id="element33" class="holder-item">competition</p>
+            <p id="element34" class="holder-item">2024</p>
+        </div>
+        <div class="pHolder">
             <p id="element35" class="mission"></p>
             <p id="element36" class="mission"></p>
             <p id="element37" class="mission"></p>
-
             <p id="element38" class="vision"></p>
             <p id="element39" class="vision"></p>
-
-            <p id="element40" class="cometition"></p>
-            <p id="element41" class="cometition"></p>
-            <p id="element42" class="cometition"></p>
-            
-            <p id="element43" class="2024"></p>
-            <p id="element44" class="2024"></p>
-            </div>
+            <p id="element40" class="competition"></p>
+            <p id="element41" class="competition"></p>
+            <p id="element42" class="competition"></p>
+            <p id="element43" class="twenty"></p>
+            <p id="element44" class="twenty"></p>
+        </div>
     </div>
     </div>
     </section>
@@ -157,4 +154,17 @@
 <script src="scripts/js/translation.js"></script>
 <script src="scripts/js/animation.js"></script>
 <script src="scripts/js/sec5.js"></script>
+ <script>
+        // Add event listeners for each holder item
+        const holderItems = document.querySelectorAll('.holder-item');
+        holderItems.forEach(item => {
+            item.style.cursor = 'pointer';
+            item.addEventListener('mouseover', function() {
+                this.style.textDecoration = 'underline';
+            });
+            item.addEventListener('mouseout', function() {
+                this.style.textDecoration = 'none';
+            });
+        });
+    </script>
 </html>

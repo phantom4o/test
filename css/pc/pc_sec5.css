@@ -1,0 +1,86 @@
+section.sec5 {
+    background: rgb(6,59,57);
+    background: linear-gradient(0deg, rgba(6,59,57,1) 0%, rgba(138,255,251,1) 100%);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  
+}
+section.sec5 div.title-box{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    height: 250px;
+}
+div.title-box img{
+    height: 250px;
+}
+div.title-box h5{
+    position: absolute;
+    color: white;
+    font-size: 45px;
+    z-index: 2;
+    margin-left: 45px;
+    width: 250px;
+}
+section.sec5 div.bottom-part{
+    position: relative;
+    bottom: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+}
+section.sec5 div.sec5-left-side{
+    height: 80%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+section.sec5 div.sec5-left-side img{
+    height: 52%;
+    width:58%;
+    object-fit:contain;
+}
+section.sec5 div.sec5-right-side {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 50%;
+}
+
+section.sec5 div.sec5-right-side div.hHolders {
+    margin-top: 50px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+div.hHolders p {
+    color: #063B39;
+    font-size: 22px;
+    margin: 20px 0;
+    padding: 10px 5px;
+    font-weight: bold;
+}
+
+section.sec5 div.sec5-right-side div.pHolder {
+    width: 80%;
+}
+
+div.pHolder p {
+    color: black;
+    font-size: 20px;
+}
+div.pHolder p.vision,
+div.pHolder p.competition,
+div.pHolder p.twenty {
+    display: none;
+}
