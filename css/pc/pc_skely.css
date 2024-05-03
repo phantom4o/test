@@ -55,15 +55,6 @@ section[class^="sec"] {
     height: 100vh;
 }
 
-
-section.sec4 {
-    background-color: #3498db;
-}
-
-section.sec5 {
-    background-color: #f1c40f;
-}
-
 section.sec6 {
     background-color: #e74c3c;
 }

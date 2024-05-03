@@ -81,7 +81,7 @@
     </section>
     <section class="sec3">
         <div class="title-box">
-            <img src="src/img/banv2.png" alt="">
+            <img src="src/img/banv3.png" alt="">
             <h5 id="element20"></h5>
         </div>
         <div class="bottom-part">
@@ -99,7 +99,7 @@
     </section>
     <section class="sec4">
         <div class="title-box">
-            <img src="src/img/banv2.png" alt="">
+            <img src="src/img/banv3.png" alt="">
             <h5 id="element25"></h5>
         </div>
         <div class="bottom-part">
@@ -117,7 +117,7 @@
      <!-- work HERE -->
     <section class="sec5">
         <div class="title-box">
-            <img src="src/img/banv2.png" alt="">
+            <img src="src/img/banv3.png" alt="">
             <h5 id="element30"></h5>
         </div>
         <div class="bottom-part">
@@ -126,10 +126,10 @@
         </div>
        <div class="sec5-right-side">
         <div class="hHolders">
-            <p id="element31" class="holder-item">mission</p>
-            <p id="element32" class="holder-item">vision</p>
-            <p id="element33" class="holder-item">competition</p>
-            <p id="element34" class="holder-item">2024</p>
+            <p id="element31" data-filter="mission">mission</p>
+            <p id="element32" data-filter="vision">vision</p>
+            <p id="element33" data-filter="competition">competition</p>
+            <p id="element34" data-filter="twenty">2024</p>
         </div>
         <div class="pHolder">
             <p id="element35" class="mission"></p>
@@ -154,17 +154,4 @@
 <script src="scripts/js/translation.js"></script>
 <script src="scripts/js/animation.js"></script>
 <script src="scripts/js/sec5.js"></script>
- <script>
-        // Add event listeners for each holder item
-        const holderItems = document.querySelectorAll('.holder-item');
-        holderItems.forEach(item => {
-            item.style.cursor = 'pointer';
-            item.addEventListener('mouseover', function() {
-                this.style.textDecoration = 'underline';
-            });
-            item.addEventListener('mouseout', function() {
-                this.style.textDecoration = 'none';
-            });
-        });
-    </script>
 </html>

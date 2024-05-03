@@ -14,7 +14,7 @@ section.sec4 div.title-box{
     height: 250px;
 }
 div.title-box img{
-    height: 250px;
+    height: 100%;
 }
 div.title-box h5{
     position: absolute;
@@ -40,7 +40,7 @@ section.sec4 div.sec4-left-side{
     display: flex;
     flex-direction: column;
     justify-content: end;
-    padding: 0 0 60px 50px;
+    padding: 0 0 100px 50px;
 }
 section.sec4 div.sec4-right-side{
     display: flex;

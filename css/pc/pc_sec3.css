@@ -13,7 +13,7 @@ section.sec3 div.title-box{
     z-index: 1;
 }
 div.title-box img{
-    height: 250px;
+    height: 100%;
 }
 div.title-box h5{
     position: absolute;

@@ -14,7 +14,7 @@ section.sec5 div.title-box{
     height: 250px;
 }
 div.title-box img{
-    height: 250px;
+    height: 100%;
 }
 div.title-box h5{
     position: absolute;
@@ -57,17 +57,18 @@ section.sec5 div.sec5-right-side {
 section.sec5 div.sec5-right-side div.hHolders {
     margin-top: 50px;
     width: 80%;
+    height: 25px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: end;
     z-index: 2;
 }
 
 div.hHolders p {
     color: #063B39;
     font-size: 22px;
-    margin: 20px 0;
-    padding: 10px 5px;
+    margin: 0px;
     font-weight: bold;
 }
 
@@ -78,9 +79,18 @@ section.sec5 div.sec5-right-side div.pHolder {
 div.pHolder p {
     color: black;
     font-size: 20px;
+    opacity: 1;
+    transition: opacity 0.3s ease; /* Remove transition property */
+    animation: fadeInOut 0.5s ease forwards; /* Add animation property */ 
 }
+@keyframes fadeInOut {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
 div.pHolder p.vision,
 div.pHolder p.competition,
 div.pHolder p.twenty {
     display: none;
+    opacity: 0;
 }
