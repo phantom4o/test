@@ -7,7 +7,8 @@ section.sec5 {
   
 }
 section.sec5 div.title-box{
-    position: absolute;
+    position: relative;
+    top: 0px;
     display: flex;
     align-items: center;
     z-index: 1;

@@ -6,11 +6,13 @@ section.sec3 {
     height: 100vh; /* if remove the height */
 }
 section.sec3 div.title-box{
-    position: absolute;
+    position: relative;
+    top: 0px;
     display: flex;
     align-items: center;
     height: 250px;
     z-index: 1;
+    border: red solid 2px;
 }
 div.title-box img{
     height: 100%;
@@ -32,6 +34,7 @@ section.sec3 div.bottom-part{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    border: red solid 2px;
 }
 div.sec3-left-side{
     position: relative;

@@ -1,0 +1,53 @@
+@media (max-width: 600px) {
+    section.holder section.sec5{
+        position: relative;
+        height: auto;
+    }
+    section.holder section.sec5 div.title-box {
+        position: relative;
+        height: 110px;
+    }
+    section.holder section.sec5 div.title-box img{
+        height: 120px;
+    }
+     section.holder section.sec5 div.title-box h5{
+        font-size: 25px;
+        margin-left: 10px;
+        width: 150px;
+    }
+    section.holder section.sec5 div.bottom-part{
+        justify-content: start;
+        height: 100%;
+        top: -20px;
+        display: flex;
+        flex-direction: column;
+    }
+    section.holder section.sec5 div.bottom-part div.sec5-left-side{
+        position: relative;
+        height: 110px;
+    }
+    section.holder section.sec5 div.bottom-part div.sec5-left-side img{
+        position: absolute;
+        top: -20px;
+        height: 150px;
+        width: 100%;
+        object-fit:fill;
+    }
+    section.holder section.sec5 div.bottom-part div.sec5-right-side{
+        width: 100%;
+        padding: 0px 10px;
+    }
+    section.holder section.sec5 div.bottom-part div.sec5-right-side div.hHolders{
+        width: 85%;
+    }
+    section.holder section.sec5 div.bottom-part div.sec5-right-side div.hHolders p{
+        font-size: 20px;
+    }
+    section.holder section.sec5 div.bottom-part div.sec5-right-side div.pHolder{
+       margin-top: 15px;
+    }
+    section.holder section.sec5 div.bottom-part div.sec5-right-side div.pHolder p{
+        font-size: 17px;
+    }
+
+}
