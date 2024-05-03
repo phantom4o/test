@@ -14,4 +14,11 @@
   ul.abt_small_secntion li a {
     font-size: 20px;
   }
+  body div.scrollup_btn{
+    bottom: 20px;
+    right: 25px;
+  }
+  body div.scrollup_btn a i.fa-chevron-up{
+    font-size: 15px;
+  }
 }

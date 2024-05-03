@@ -20,15 +20,22 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-// UnderLine
-  const holderItems = document.querySelectorAll('div.hHolders p');
-  holderItems.forEach(item => {
-      item.style.cursor = 'pointer';
-      item.addEventListener('mouseover', function() {
-        this.style.borderBottom = '4px solid white';
-      });
-      item.addEventListener('mouseout', function() {
-          this.style.borderBottom = 'none';
-      });
-  });
+// UnderLine hover
+const holderItems = document.querySelectorAll('div.hHolders p');
+holderItems.forEach(item => {
+    item.style.cursor = 'pointer';
+    item.addEventListener('click', function() {
+        if (this.classList.contains('clicked')) {
+            this.classList.remove('clicked');
+            this.style.borderBottom = 'none';
+        } else {
+            holderItems.forEach(item => {
+                item.classList.remove('clicked');
+                item.style.borderBottom = 'none';
+            });
+            this.classList.add('clicked');
+            this.style.borderBottom = '4px solid white';
+        }
+    });
+});
 

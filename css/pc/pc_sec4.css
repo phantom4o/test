@@ -1,68 +1,27 @@
-section.sec4 {
-    background: rgb(6,59,57);
-    background: linear-gradient(0deg, rgba(6,59,57,1) 0%, rgba(138,255,251,1) 100%);
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-  
-}
-section.sec4 div.title-box{
-    position: relative;
-    top: 0px;
-    display: flex;
-    align-items: center;
-    z-index: 1;
-    height: 250px;
-}
-div.title-box img{
-    height: 100%;
-}
-div.title-box h5{
-    position: absolute;
-    color: white;
-    font-size: 45px;
-    z-index: 2;
-    margin-left: 45px;
-    width: 250px;
-}
-section.sec4 div.bottom-part{
-    position: relative;
-    bottom: 0px;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: end;
-}
-section.sec4 div.sec4-left-side{
-    height: 60%;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
+/* CUSTOM */
+section#sec4 div.sec4-left-side{
     justify-content: end;
     padding: 0 0 100px 50px;
 }
-section.sec4 div.sec4-right-side{
+section#sec4 div.sec4-right-side{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    width: 50%;
 }
 div.sec4-right-side img{
-    height: 556px;
+    height: 470px;
     width: 627px;
     border-radius: 25px;
     object-fit: cover;
+    margin: 50px 0 50px 0;
     filter: saturate(150%);
 }
-section.sec4 div.sec4-left-side h6{
+section#sec4 div.sec4-left-side h6{
     font-size: 30px;
     margin:0 0 15px;
     color: #063B39;
 }
-section.sec4 div.sec4-left-side p{
+section#sec4 div.sec4-left-side p{
     margin-top: 0px;
     font-size: 20px;
     color: black;

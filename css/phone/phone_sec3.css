@@ -1,21 +1,21 @@
 @media (max-width: 600px) {
-    section.holder section.sec3{
+    section.holder section#sec3{
         position: relative;
         height: auto;
         padding-bottom: 20px;
     }
-    section.holder section.sec3 div.title-box {
+    section.holder section#sec3 div.title-box {
         position: relative;
         height: 110px;
     }
-    section.holder section.sec3 div.title-box img{
+    section.holder section#sec3 div.title-box img{
         height: 120px;
     }
-     section.holder section.sec3 div.title-box h5{
+     section.holder section#sec3 div.title-box h5{
         font-size: 20px;
         margin-left: 8px;
     }
-     section.holder section.sec3 div.bottom-part{
+     section.holder section#sec3 div.bottom-part{
         top: -20px;
         display: flex;
         flex-direction: column;
@@ -39,7 +39,8 @@
     }
     div.bottom-part div.sec3-right-side{
         height: none;
-        width: 95%;
+        width: 100%;
+        padding: 0 0 0 25px;
     }
     div.bottom-part div.sec3-right-side h6{
         font-size: 18px;

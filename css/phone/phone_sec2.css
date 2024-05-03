@@ -1,25 +1,25 @@
 @media (max-width: 600px) {
-    section.holder section.sec2{
+    section.holder section#sec2{
         height: auto;
         flex-direction: column;
         row-gap: 50px;
         padding: 50px 0;
     }
-    section.holder section.sec2 div.box1,
-    section.holder section.sec2 div.box2,
-    section.holder section.sec2 div.box3{
+    section.holder section#sec2 div.box1,
+    section.holder section#sec2 div.box2,
+    section.holder section#sec2 div.box3{
         width: 320px;
         height: auto;
     }
-    section.holder section.sec2 div i{
+    section.holder section#sec2 div i{
         font-size: 45px;
     }
-    section.holder section.sec2 div h2,
-    section.holder section.sec2 div h3,
-    section.holder section.sec2 div h4{
+    section.holder section#sec2 div h2,
+    section.holder section#sec2 div h3,
+    section.holder section#sec2 div h4{
         font-size: 15px;
     }
-    section.holder section.sec2 div i{
+    section.holder section#sec2 div i{
         top: -20px;
     }
 }

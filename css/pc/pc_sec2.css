@@ -1,4 +1,4 @@
-section.sec2 {
+section#sec2 {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -9,9 +9,9 @@ section.sec2 {
   background-color: #063B39;
 }
 
-section.sec2 div.box1,
-section.sec2 div.box2,
-section.sec2 div.box3 {
+section#sec2 div.box1,
+section#sec2 div.box2,
+section#sec2 div.box3 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,7 +23,7 @@ section.sec2 div.box3 {
   background-color: rgb(214, 214, 214);
 }
 
-section.sec2 div i {
+section#sec2 div i {
   position: relative;
   top: -40px;
   font-size: 50px;
@@ -34,14 +34,14 @@ section.sec2 div i {
   color: #063B39;
 }
 
-section.sec2 div h2,
-section.sec2 div h3,
-section.sec2 div h4 {
+section#sec2 div h2,
+section#sec2 div h3,
+section#sec2 div h4 {
   font-size: 18px;
   margin: 0px 2px;
 }
 
-section.sec2 div p {
+section#sec2 div p {
   font-size: 15px;
 }
 

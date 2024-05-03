@@ -51,11 +51,7 @@ section.holder {
     overflow-x: hidden;
 }
 
-section[class^="sec"] {
-    height: 100vh;
-}
-
-section.sec6 {
+section#sec6 {
     background-color: #e74c3c;
 }
 
@@ -69,36 +65,51 @@ aside.side-menu {
     justify-content: start;
     align-items: center;
     height: 100vh;
-    width: 250px;
-    padding: 30px 15px 15px 15px;
+    width: 260px;
+    padding: 30px 15px 15px 20px;
     transition: right 0.5s;
     z-index: 2;
     background-color: #416962;
 }
-
+i.dot{
+    color: red;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-right: 10px;
+} 
 li.aside-main-li {
     margin-bottom: 25px;
     list-style-type: none;
-    display: flex;
-    flex-direction: column;
+
 }
 
 li.aside-main-li ul li {
     margin: 10px 0;
     list-style-type: none;
 }
-
+ul.aside-ul{
+    padding: 0px;
+}
 ul.aside-ul li a,
-ul.aside-ul li ul li a,
+ul.aside-ul li ul li,
 li.aside-main-li span i {
     text-decoration: none;
     color: #c7f8b4;
-    font-size: 25px;
+    font-size: 23px;
+}
+li.aside-main-li span{
+    display: flex;
 }
 
 ul.abt_small_secntion,
-ul.cerf_small_secntio {
-    display: none;
+ul.cerf_small_secntion{
+    padding-left: 0px;
+
+}
+ul.abt_small_secntion li,
+ul.cerf_small_secntion li{
+    display: flex;
+    font-size: 20px;
 }
 
 ul.abt_small_secntion li a:hover,
@@ -106,7 +117,62 @@ ul.cerf_small_secntion li a:hover {
     text-decoration: underline;
     color: azure;
 }
+/* Sec 3/4/5 */
+#sec3, #sec4, #sec5 {
+        background: rgb(6,59,57);
+        background: linear-gradient(0deg, rgba(6,59,57,1) 0%, rgba(138,255,251,1) 100%);
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+    
+    .title-box {
+        position: relative;
+        top: 0px;
+        display: flex;
+        align-items: center;
+        height: 250px;
+        z-index: 1;
+    }
+    
+    .title-box img {
+        height: 100%;
+    }
+    
+    .title-box h5 {
+        position: absolute;
+        color: white;
+        font-size: 45px;
+        z-index: 2;
+        margin-left: 45px;
+        width: 250px;
+    }
+    
+    .bottom-part {
+        position: relative;
+        top: -85px;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: end;
+    }
+    
+    .sec3-left-side, .sec4-left-side, .sec5-left-side {
 
+        position: relative;
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .sec3-right-side, .sec4-right-side, .sec5-right-side{
+
+        height: 100%;
+        width: 50%;
+    }
 /* FOOTER */
 footer {
     display: flex;
@@ -114,4 +180,19 @@ footer {
     height: 50px;
     width: 100vw;
     background-color: chartreuse;
+}
+
+
+div.scrollup_btn{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.644);
+    border-radius: 50%;
+}
+div.scrollup_btn a i.fa-chevron-up{
+    font-size: 25px;
+    padding: 15px;
+    color: rgb(0, 0, 0);
 }
