@@ -34,17 +34,18 @@
         object-fit:fill;
     }
     section.holder section#sec5 div.bottom-part div.sec5-right-side{
-        width: 100%;
-        padding: 0 0 0 25px;
+        width: 100vw;
+        padding: 0 10px;
     }
     section.holder section#sec5 div.bottom-part div.sec5-right-side div.hHolders{
-        width: 85%;
+        width: 100%;
     }
     section.holder section#sec5 div.bottom-part div.sec5-right-side div.hHolders p{
-        font-size: 20px;
+        font-size: 15px;
     }
     section.holder section#sec5 div.bottom-part div.sec5-right-side div.pHolder{
        margin-top: 15px;
+       padding: 0 0 0 25px;
     }
     section.holder section#sec5 div.bottom-part div.sec5-right-side div.pHolder p{
         font-size: 17px;
