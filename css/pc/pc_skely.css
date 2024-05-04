@@ -51,9 +51,6 @@ section.holder {
     overflow-x: hidden;
 }
 
-section#sec6 {
-    background-color: #e74c3c;
-}
 
 /* ASIDE */
 aside.side-menu {
@@ -118,7 +115,7 @@ ul.cerf_small_secntion li a:hover {
     color: azure;
 }
 /* Sec 3/4/5 */
-#sec3, #sec4, #sec5 {
+#sec3, #sec4, #sec5, #sec6 {
         background: rgb(6,59,57);
         background: linear-gradient(0deg, rgba(6,59,57,1) 0%, rgba(138,255,251,1) 100%);
         display: flex;
@@ -159,7 +156,7 @@ ul.cerf_small_secntion li a:hover {
         align-items: end;
     }
     
-    .sec3-left-side, .sec4-left-side, .sec5-left-side {
+    .sec3-left-side, .sec4-left-side, .sec5-left-side ,.sec6-left-side{
 
         position: relative;
         height: 100%;
@@ -168,8 +165,7 @@ ul.cerf_small_secntion li a:hover {
         flex-direction: column;
     }
     
-    .sec3-right-side, .sec4-right-side, .sec5-right-side{
-
+    .sec3-right-side, .sec4-right-side, .sec5-right-side, .sec6-right-side{
         height: 100%;
         width: 50%;
     }

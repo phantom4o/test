@@ -62,6 +62,3 @@
 
 
 ```
-## what I am thinking and doing
-
-- fix sec3 img
