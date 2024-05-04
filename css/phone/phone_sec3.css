@@ -25,17 +25,17 @@
         height: 200px;
         width: 100%;
     }
-    body div.bottom-part div.sec3-left-side img.map1{
+    section.holder section#sec3 div.bottom-part div.sec3-left-side img.map1{
         top: 80px;
         right: 5px;
         height: 85px;
         width: 135px;
     }
-    body div.bottom-part div.sec3-left-side img.map2{
-        top: 0px;
+    section.holder section#sec3 div.bottom-part div.sec3-left-side img.map2{
+        top: 25px;
         left: 0px;
         height: 121px;
-        width: 287px
+        width: 287px;
     }
     div.bottom-part div.sec3-right-side{
         height: none;
