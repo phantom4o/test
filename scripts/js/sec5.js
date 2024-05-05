@@ -1,7 +1,26 @@
 // data-filter ourVision
 document.addEventListener('DOMContentLoaded', function() {
-  const buttons = document.querySelectorAll('div.hHolders p');
-  const images = document.querySelectorAll('div.pHolder p');
+  const buttons = document.querySelectorAll('.sec5-right-side div.hHolders p');
+  const images = document.querySelectorAll('.sec5-right-side div.pHolder p');
+  
+  buttons.forEach(button => {
+    button.addEventListener('click', function() {
+      const filter = this.getAttribute('data-filter');
+      
+      images.forEach(image => {
+        if (image.classList.contains(filter)) {
+          image.style.display = 'block';
+        } else {
+          image.style.display = 'none';
+        }
+      });
+    });
+  });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+  const buttons = document.querySelectorAll('div.sec6-right-side div.hHolders p');
+  const images = document.querySelectorAll('div.sec6-right-side div.pHolder p');
   
   buttons.forEach(button => {
     button.addEventListener('click', function() {

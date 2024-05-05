@@ -62,3 +62,5 @@
 
 
 ```
+Fix the part 1 part 2 hover and clicking underline
+fix ther scroll problem on the phone

@@ -9,8 +9,8 @@ section#sec5 div.sec5-right-side {
     flex-direction: column;
 }
 section#sec5 div.sec5-left-side img{
-    height: 348px;
-    width: 477px;
+    height: auto;
+    width: 60%;
 }
 
 section#sec5 div.sec5-right-side div.hHolders {

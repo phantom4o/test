@@ -65,4 +65,12 @@ document.addEventListener("DOMContentLoaded", function() {
         // Call the slowScrollToTop function
         slowScrollToTop();
     });
+
+    // Prevent default behavior for touchmove events when scrolling
+    document.addEventListener('touchmove', function(event) {
+        if (event.target === scrollUpButton) {
+            event.preventDefault();
+        }
+    });
 });
+
