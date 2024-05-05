@@ -1,1 +1,59 @@
-@media (max-width: 600px) {}
+@media (max-width: 600px) {
+    section.holder section#sec6{
+        position: relative;
+        height: auto;
+    }
+    section.holder section#sec6 div.title-box {
+        position: relative;
+        height: 110px;
+    }
+    section.holder section#sec6 div.title-box img{
+        height: 120px;
+    }
+     section.holder section#sec6 div.title-box h5{
+        font-size: 25px;
+        margin-left: 10px;
+        width: 150px;
+    }
+    section.holder section#sec6 div.bottom-part{
+        justify-content: start;
+        height: 100%;
+        top: -20px;
+        display: flex;
+        flex-direction: column;
+    }
+    section.holder section#sec6 div.bottom-part div.sec6-left-side{
+        position: relative;
+        align-items: end;
+        padding: 0 0 20px 15px;
+        height: 110px;
+        width: 100%;
+    }
+    section.holder section#sec6 div.bottom-part div.sec6-left-side img{
+        position: absolute;
+        top: -20px;
+        height: 140px;
+        width: auto;
+        object-fit:fill;
+    }
+    section#sec6 div.bottom-part div.sec6-right-side{
+        width: 100vw;
+        padding: 0 5px;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+    section.holder section#sec6 div.bottom-part div.sec6-right-side div.hHolders{
+        width: 100%;
+        justify-content: space-around;
+    }
+    section.holder section#sec6 div.bottom-part div.sec6-right-side div.hHolders p{
+        font-size: 15px;
+    }
+    section.holder section#sec6 div.bottom-part div.sec6-right-side div.pHolder{
+       margin-top: 15px;
+       padding: 0 0 0 25px;
+    }
+    section.holder section#sec6 div.bottom-part div.sec6-right-side div.pHolder p{
+        font-size: 15px;
+    }
+}
