@@ -38,6 +38,9 @@ div.hHolders p#element31{
 section#sec5 div.sec5-right-side div.pHolder {
     margin-top: 25px;
     width: 80%;
+    background-color: rgba(255, 255, 255, 0.37); 
+    border-radius: 25px; 
+    padding: 15px;
 }
 
 div.pHolder p {

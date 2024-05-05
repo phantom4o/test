@@ -5,6 +5,7 @@ section#sec6 div.sec6-left-side{
 
 }
 section#sec6 div.sec6-right-side {
+    align-items: center;
     display: flex;
     flex-direction: column;
 }
@@ -22,13 +23,14 @@ div.sec6-right-side h6{
 }
 section#sec6 div.sec6-right-side div.hHolders {
     width: 80%;
-    height: 50px;
+    height: 40px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: end;
     z-index: 2;
     border-bottom: 2px solid #5d8d8b;
+    margin-bottom: 10px;
 }
 
 div.hHolders p {
@@ -36,16 +38,21 @@ div.hHolders p {
     font-size: 22px;
     margin-bottom:10px;
     font-weight: bold;
-    margin-right: 15px;
+    margin: 0px 15px 0 0;
+    padding: 5px 0;
 }
 div.hHolders p#element47{
     border-bottom: 4px solid white;
 }
 section#sec6 div.sec6-right-side div.pHolder{
     width: 90%;
+    background-color: rgba(255, 255, 255, 0.37);
+    border-radius: 25px;
+    padding: 5px 10px;
 }
 section#sec6 div.sec6-right-side div.pHolder p{
     font-size: 18px;
+    color: #000000;
 }
 section#sec6 div.sec6-right-side div.pHolder p.part2{
     display: none;

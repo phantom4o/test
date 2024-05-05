@@ -41,36 +41,5 @@ document.getElementById('element3').addEventListener('click', function () {
 });
 
 
-// GO To animation
-document.addEventListener("DOMContentLoaded", function() {
-    var scrollUpButton = document.getElementById('scrollUpButton');
 
-    // Function to scroll to the top gradually
-    function slowScrollToTop() {
-        var currentPosition = window.pageYOffset;
-        var interval = setInterval(function() {
-            if (currentPosition > 0) {
-                window.scrollBy(0, -50); // Adjust the value to change scroll speed
-                currentPosition -= 50; // Adjust the value to change scroll speed
-            } else {
-                clearInterval(interval);
-            }
-        }, 1); // Adjust the value to change scroll speed
-    }
-
-    // Add event listener to the scroll-up button
-    scrollUpButton.addEventListener('click', function(event) {
-        event.preventDefault();
-
-        // Call the slowScrollToTop function
-        slowScrollToTop();
-    });
-
-    // Prevent default behavior for touchmove events when scrolling
-    document.addEventListener('touchmove', function(event) {
-        if (event.target === scrollUpButton) {
-            event.preventDefault();
-        }
-    });
-});
 

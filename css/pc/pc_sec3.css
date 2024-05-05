@@ -18,7 +18,11 @@ section#sec3 div.sec3-left-side img.map2{
     object-fit:cover;
     box-shadow: 21px 11px 32px -3px rgb(49, 49, 49);
 }
-
+div.sec3-right-side{
+    background-color: rgba(255, 255, 255, 0.37);
+    border-radius: 25px;
+    padding: 0px 25px;
+}
 div.sec3-right-side h6{
     font-size: 25px;
     width: 250px;

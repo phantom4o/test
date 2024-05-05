@@ -19,48 +19,21 @@
 }
 ```
 
-### Example Snap Slide Verticlue 
+### We can use this thing so the text doesnt blend with the background
 
 ```css  
-        .container {
-            width: 100%;
-            height: 100px; /* Adjust height as needed */
-            overflow-y: scroll;
-            scroll-snap-type: y mandatory;
-            scrollbar-width: none; /* Hides scrollbar in Firefox */
-            -ms-overflow-style: none; /* Hides scrollbar in Internet Explorer */
-        }
-         
-        ul {
-            padding: 0;
-            margin: 0;
-            list-style: none;
-            display: flex;
-            flex-direction: column;
-        }
-        
-        li {
-            min-height: 100px; /* Adjust height as needed */
-            width: 100%;
-            border: 2px solid black;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            scroll-snap-align: start;
-        }
-
-    <div class="container">
-        <ul class="scroller">
-            <li>Lorem, ipsum dolor.</li>
-            <li>Fugiat, maxime atque?</li>
-            <li>Repellendus, dolorum ut.</li>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Fugiat, maxime atque?</li>
-            <li>Repellendus, dolorum ut.</li>
-        </ul>
-    </div>
-
+section#sec6 div.sec6-right-side div.pHolder{
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.253); <--
+    border-radius: 25px; <--
+    padding: 15px; <--
+}
+div.pHolder p{
+    font-size: 18px;
+    color: #000000;
+}
 
 ```
-Fix the part 1 part 2 hover and clicking underline
+give space between the top img and the title.
+put the title name in the mid of the title div
 fix ther scroll problem on the phone

@@ -37,9 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
-
-
-// UnderLine hover
+// underline onClick
 const holderItems = document.querySelectorAll('div.hHolders p');
 holderItems.forEach(item => {
     item.style.cursor = 'pointer';
