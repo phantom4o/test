@@ -4,7 +4,6 @@ section#sec4 div.bottom-part{
 }
 section#sec4 div.sec4-left-side{
     justify-content: end;
-    padding: 0 0 25px 50px;
     background-color: rgba(255, 255, 255, 0.37);
     border-radius: 25px;
     padding: 5px 10px;

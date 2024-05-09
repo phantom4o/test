@@ -1,6 +1,6 @@
 /* CUSTOM */
 section#sec6 div.sec6-left-side{
-    justify-content: center;
+    justify-content: end;
     align-items: center;
 
 }
@@ -10,9 +10,8 @@ section#sec6 div.sec6-right-side {
     flex-direction: column;
 }
 section#sec6 div.sec6-left-side img{
-    height: auto;
+   height: auto;
     width: 60%;
-    object-fit: contain;
 }
 
 div.sec6-right-side h6{

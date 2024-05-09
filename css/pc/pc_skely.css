@@ -8,6 +8,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    background-color: #063B39;
 }
 
 nav {
@@ -43,12 +44,11 @@ section.holder {
     position: relative;
     top: 60px;
     background-color: rgb(3, 70, 70);
-    height: auto;
     display: flex;
     flex-direction: column;
     scroll-snap-type: y mandatory;
     z-index: 1;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 
@@ -60,13 +60,18 @@ aside.side-menu {
     display: flex;
     flex-direction: column;
     justify-content: start;
+    justify-content: space-between;
     align-items: center;
-    height: 100vh;
+    height: 94vh;
     width: 260px;
     padding: 30px 15px 15px 20px;
     transition: right 0.5s;
     z-index: 2;
     background-color: #416962;
+}
+aside.side-menu p{
+    color: #063B39;
+    font-size: 12px;
 }
 i.dot{
     color: red;
@@ -116,8 +121,8 @@ ul.cerf_small_secntion li a:hover {
 }
 /* Sec 3/4/5 */
 #sec3, #sec4, #sec5, #sec6 {
-        background: rgb(6,59,57);
-        background: linear-gradient(0deg, rgba(6,59,57,1) 0%, rgba(138,255,251,1) 100%);
+    background: rgb(6,59,57);
+    background: linear-gradient(0deg, rgba(6,59,57,1) 0%, rgba(138,255,251,1) 100%);
         display: flex;
         flex-direction: column;
         height: 100vh;
@@ -137,17 +142,18 @@ ul.cerf_small_secntion li a:hover {
     }
     
     .title-box h5 {
+        text-align: center;
         position: absolute;
         color: white;
-        font-size: 45px;
+        font-size: 40px;
         z-index: 2;
-        margin-left: 45px;
-        width: 250px;
+        margin-left: 20px;
+        width: 290px;
     }
     
     .bottom-part {
         position: relative;
-        top: -85px;
+        top: -140px;
         width: 100vw;
         height: 100vh;
         display: flex;
@@ -172,9 +178,16 @@ ul.cerf_small_secntion li a:hover {
 footer {
     display: flex;
     flex-direction: row;
-    height: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
     width: 100vw;
-    background-color: chartreuse;
+    background-color: #268a69;
+}
+footer p{
+    color: #ffffff;
+    font-weight: bold;
+    margin: 0px 25px;
 }
 
 
@@ -189,5 +202,5 @@ div.scrollup_btn{
 div.scrollup_btn a i.fa-chevron-up{
     font-size: 25px;
     padding: 15px;
-    color: rgb(0, 0, 0);
+    color: black;
 }

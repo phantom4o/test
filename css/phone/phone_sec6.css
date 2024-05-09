@@ -11,9 +11,9 @@
         height: 120px;
     }
      section.holder section#sec6 div.title-box h5{
-        font-size: 25px;
+        font-size: 20px;
         margin-left: 10px;
-        width: 150px;
+        width: 152px;
     }
     section.holder section#sec6 div.bottom-part{
         justify-content: start;
@@ -35,6 +35,7 @@
         height: 140px;
         width: auto;
         object-fit:fill;
+        padding-right: 15px;
     }
     section#sec6 div.bottom-part div.sec6-right-side{
         width: 100vw;
@@ -47,11 +48,12 @@
         justify-content: space-around;
     }
     section.holder section#sec6 div.bottom-part div.sec6-right-side div.hHolders p{
-        font-size: 15px;
+        font-size: 18px;
     }
     section.holder section#sec6 div.bottom-part div.sec6-right-side div.pHolder{
        margin-top: 15px;
        padding: 0 0 0 25px;
+       background-color: rgb(255, 255, 255, 0.19);
     }
     section.holder section#sec6 div.bottom-part div.sec6-right-side div.pHolder p{
         font-size: 15px;

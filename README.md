@@ -34,6 +34,4 @@ div.pHolder p{
 }
 
 ```
-give space between the top img and the title.
-put the title name in the mid of the title div
 fix ther scroll problem on the phone
