@@ -34,4 +34,6 @@ div.pHolder p{
 }
 
 ```
-fix ther scroll problem on the phone
+- connect the aside menu buttons with there sections
+- add the cetf inside the file
+- fix the aside so it doesnt look its floading for no reason when i scroll pass nav

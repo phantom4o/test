@@ -40,6 +40,22 @@ document.getElementById('element3').addEventListener('click', function () {
     }
 });
 
+// nav hide and show
+
+window.addEventListener('scroll', function() {
+    var nav = document.querySelector('nav');
+    var img = nav.querySelector('img');
+
+    // Check if scroll position is below sec2
+    if (window.scrollY > document.getElementById('sec1').offsetTop) {
+        nav.classList.add('transparent');
+        img.classList.add('hidden');
+    } else {
+        nav.classList.remove('transparent');
+        img.classList.remove('hidden');
+    }
+});
+
 
 
 

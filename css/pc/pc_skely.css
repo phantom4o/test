@@ -25,13 +25,20 @@ nav {
     z-index: 10;
     background-color: #063B39;
     color: white;
+    transition: background-color 0.5s ease;
 }
-
+nav.transparent {
+    background-color: transparent; /* Transparent background color */
+}
 nav img {
     position: absolute;
+    display: block;
     left: 25px;
     height: 80%;
     transform: scale(1.2);
+}
+nav img.hidden {
+    display: none; /* Hide the image */
 }
 
 div.hamburger-icon,
@@ -74,7 +81,7 @@ aside.side-menu p{
     font-size: 12px;
 }
 i.dot{
-    color: red;
+    color: rgb(255, 255, 255);
     font-size: 25px;
     font-weight: bolder;
     padding-right: 10px;
@@ -180,14 +187,14 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 55px;
     width: 100vw;
-    background-color: #268a69;
+    background-color: #082b29;
 }
 footer p{
     color: #ffffff;
     font-weight: bold;
-    margin: 0px 25px;
+    margin: 20px 25px;
+    font-size: 14px;
 }
 
 
