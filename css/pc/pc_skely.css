@@ -9,8 +9,25 @@ body {
     padding: 0;
     overflow-x: hidden;
     background-color: #063B39;
+    overflow-y: hidden;
 }
-
+div.loader {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    background-color: black;
+    transform: translate(-50%, -50%);
+  }
+  div.loader svg {
+    width: auto;
+    height: 500px;
+  }
 nav {
     position: fixed;
     top: 0;
@@ -28,8 +45,18 @@ nav {
     transition: background-color 0.5s ease;
 }
 nav.transparent {
-    background-color: transparent; /* Transparent background color */
+    background-color: transparent;
 }
+div#blackOverlay{
+    display: none;
+    position: absolute;
+    height: 600vh;
+    width: 100%;
+    background-color: #000000b0;
+    z-index: 3;
+    transition: opacity 0.3s ease;
+}
+
 nav img {
     position: absolute;
     display: block;
@@ -73,10 +100,12 @@ aside.side-menu {
     width: 260px;
     padding: 30px 15px 15px 20px;
     transition: right 0.5s;
-    z-index: 2;
+    z-index: 4;
     background-color: #416962;
 }
 aside.side-menu p{
+    position: relative;
+    bottom: 20px;
     color: #063B39;
     font-size: 12px;
 }
@@ -202,7 +231,7 @@ div.scrollup_btn{
     position: fixed;
     bottom: 40px;
     right: 40px;
-    z-index: 10;
+    z-index: 5;
     background-color: rgba(255, 255, 255, 0.644);
     border-radius: 50%;
 }

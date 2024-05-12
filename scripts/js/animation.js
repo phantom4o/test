@@ -3,14 +3,17 @@ function toggleMenu() {
     var barsIcon = document.getElementById('barsIcon');
     var closeIcon = document.getElementById('closeIcon');
     var myNav = document.querySelector('.side-menu');
+    var blackOv = this.document.querySelector('#blackOverlay');
 
     if (myNav.style.right === '-1000px' || myNav.style.right === '') {
         barsIcon.style.display = 'none';
         closeIcon.style.display = 'inline-block';
+        blackOv.style.display = "block";
         myNav.style.right = '0';
     } else {
         barsIcon.style.display = 'inline-block';
         closeIcon.style.display = 'none';
+        blackOv.style.display = "none";
         myNav.style.right = '-1000px';
     }
 
@@ -45,16 +48,30 @@ document.getElementById('element3').addEventListener('click', function () {
 window.addEventListener('scroll', function() {
     var nav = document.querySelector('nav');
     var img = nav.querySelector('img');
-
-    // Check if scroll position is below sec2
+    var aside = this.document.querySelector('.side-menu');
     if (window.scrollY > document.getElementById('sec1').offsetTop) {
         nav.classList.add('transparent');
         img.classList.add('hidden');
+        aside.style.top = '0px';
+        aside.style.paddingTop = '50px';
+        aside.style.height = '100vh'; // Adjusted height considering nav height
     } else {
         nav.classList.remove('transparent');
         img.classList.remove('hidden');
+        aside.style.top = '60px';
+        aside.style.paddingTop = '20px';
+        aside.style.height = '94vh'; // Adjusted height considering nav height
     }
 });
+
+// Loading Screen
+window.addEventListener('load', function() {
+    var loader = document.querySelector('.loader');
+    setTimeout(function() {
+      loader.style.display = 'none';
+      document.body.style.overflowY = 'auto';
+    }, 900);
+  });
 
 
 
