@@ -1,8 +1,17 @@
 section#sec2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   position: relative;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   column-gap: 50px;
   height: 35vh;
@@ -12,8 +21,15 @@ section#sec2 {
 section#sec2 div.box1,
 section#sec2 div.box2,
 section#sec2 div.box3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   width: 350px;
   height: 220px;
@@ -44,4 +60,3 @@ section#sec2 div h4 {
 section#sec2 div p {
   font-size: 15px;
 }
-

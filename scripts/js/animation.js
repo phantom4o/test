@@ -3,7 +3,7 @@ function toggleMenu() {
     var barsIcon = document.getElementById('barsIcon');
     var closeIcon = document.getElementById('closeIcon');
     var myNav = document.querySelector('.side-menu');
-    var blackOv = this.document.querySelector('#blackOverlay');
+    var blackOv = document.querySelector('#blackOverlay');
 
     if (myNav.style.right === '-1000px' || myNav.style.right === '') {
         barsIcon.style.display = 'none';
@@ -17,7 +17,6 @@ function toggleMenu() {
         myNav.style.right = '-1000px';
     }
 
-    // Hiding dropdown sections when clicking bars
     var abtSection = document.querySelector('.abt_small_secntion');
     var cerfSection = document.querySelector('.cerf_small_secntion');
     abtSection.style.display = 'none';
@@ -48,19 +47,19 @@ document.getElementById('element3').addEventListener('click', function () {
 window.addEventListener('scroll', function() {
     var nav = document.querySelector('nav');
     var img = nav.querySelector('img');
-    var aside = this.document.querySelector('.side-menu');
+    var aside = document.querySelector('.side-menu');
     if (window.scrollY > document.getElementById('sec1').offsetTop) {
         nav.classList.add('transparent');
         img.classList.add('hidden');
         aside.style.top = '0px';
         aside.style.paddingTop = '50px';
-        aside.style.height = '100vh'; // Adjusted height considering nav height
+        aside.style.height = '100vh';
     } else {
         nav.classList.remove('transparent');
         img.classList.remove('hidden');
         aside.style.top = '60px';
         aside.style.paddingTop = '20px';
-        aside.style.height = '94vh'; // Adjusted height considering nav height
+        aside.style.height = '94vh';
     }
 });
 
@@ -72,7 +71,3 @@ window.addEventListener('load', function() {
       document.body.style.overflowY = 'auto';
     }, 900);
   });
-
-
-
-

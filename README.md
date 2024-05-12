@@ -34,6 +34,6 @@ div.pHolder p{
 }
 
 ```
-- connect the aside menu buttons with there sections
 - add the cetf inside the file
-- fix the aside so it doesnt look its floading for no reason when i scroll pass nav
+- make it so the code can work on google and safari for the phone flie and js flie. PC version is Done.
+- fix the bg version size of the text on sec6 pholders p.
