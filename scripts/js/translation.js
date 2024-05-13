@@ -24,6 +24,4 @@ function updateContent() {
         })
         .catch(error => console.error('Error fetching JSON:', error));
 }
-
-// Initial content update
 updateContent();
