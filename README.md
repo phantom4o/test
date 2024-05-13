@@ -35,5 +35,4 @@ div.pHolder p{
 
 ```
 - add the cetf inside the file
-- make it so the code can work on google and safari for the phone flie and js flie. PC version is Done.
 - fix the bg version size of the text on sec6 pholders p.
