@@ -3,6 +3,7 @@ var currentLanguage = "ENG";
 function toggleLanguage() {
     currentLanguage = (currentLanguage === "ENG") ? "BGN" : "ENG";
     updateContent();
+    updateFontSize(); // Call the function to update font size after language change
 }
 
 function updateContent() {
@@ -24,4 +25,19 @@ function updateContent() {
         })
         .catch(error => console.error('Error fetching JSON:', error));
 }
+
+function updateFontSize() {
+    // Check the current language and update font size accordingly
+    if (currentLanguage === "BGN") {
+        document.querySelectorAll('section#sec6 div.sec6-right-side div.pHolder p').forEach(function(p) {
+            p.style.fontSize = '16.5px';
+        });
+    } else {
+        document.querySelectorAll('section#sec6 div.sec6-right-side div.pHolder p').forEach(function(p) {
+            p.style.fontSize = '18px';
+        });
+    }
+}
+
+
 updateContent();
