@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <!-- Phone -->
+    <link rel="stylesheet" href="css/phone/phone_skely.css">
+    <!-- PC -->
+    <link rel="stylesheet" href="css/pc/pc_skely.css">
+    <title>BG/GR</title>
+</head>
+<body>
+    <div class="loader">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" width="249" height="249" style="shape-rendering: auto; display: block; background: rgba(255, 255, 255, 0);" xmlns:xlink="http://www.w3.org/1999/xlink"><g><circle stroke-linecap="round" fill="none" stroke-dasharray="39.269908169872416 39.269908169872416" stroke="#36af54" stroke-width="10" r="25" cy="50" cx="50">
+      <animateTransform values="0 50 50;360 50 50" keyTimes="0;1" repeatCount="indefinite" dur="1.3888888888888888s" type="rotate" attributeName="transform"></animateTransform>
+    </circle>
+    <circle stroke-linecap="round" fill="none" stroke-dashoffset="21.991148575128552" stroke-dasharray="21.991148575128552 21.991148575128552" stroke="#6aa9f8" stroke-width="10" r="14" cy="50" cx="50">
+      <animateTransform values="0 50 50;-360 50 50" keyTimes="0;1" repeatCount="indefinite" dur="1.3888888888888888s" type="rotate" attributeName="transform"></animateTransform>
+    </circle><g></g></g></svg>
+      </div>
+    <div id="blackOverlay"></div>
+    <nav>
+        <img src="img/logo.png" alt="" title="logo">
+        <i class="fa fa-globe" onclick="toggleLanguage()"></i>
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <i class="fa fa-bars" id="barsIcon"></i>
+            <i class="fa fa-close" id="closeIcon" style="display: none;"></i>
+        </div>
+    </nav>
+    <aside class="side-menu">
+        <ul class="aside-ul">
+            <li class="aside-main-li"><a href="#" id="element1"></a></li>
+            <li class="aside-main-li"><span><a href="#" id="element2"></a> <i class="fa fa-sort-down"></i></span>
+                <ul class="abt_small_secntion">
+                    <li><i class="dot">-</i> <a href="#sec3" id="element7"></a></li>
+                    <li><i class="dot">-</i> <a href="#sec4" id="element8"></a></li>
+                    <li><i class="dot">-</i> <a href="#sec5" id="element9"></a></li>
+                    <li><i class="dot">-</i> <a href="#sec6" id="element10"></a></li>
+                </ul>
+            </li>
+            <li class="aside-main-li"><span><a href="#" id="element3"></a> <i class="fa fa-sort-down"></i></span>
+                <ul class="cerf_small_secntion">
+                    <li><i class="dot">-</i> <a href="#" id="element11"></a></li>
+                    <li><i class="dot">-</i> <a href="#" id="element12"></a></li>
+                    <li><i class="dot">-</i> <a href="#" id="element13"></a></li>
+                </ul>
+            </li>
+            <li class="aside-main-li"><a href="contact.html" id="element4"></a></li>
+        </ul>
+        <p>Copyright (c) 2024 Манастирска Нива</p>
+    </aside>
+    <section class="contact-sec">
+     <div class="top">
+        <h1 id="element59"></h1>
+     </div>
+     <main>
+        <div class="contact-left">
+            <form>
+                <img src="img/map.png" alt="">
+                <div class="form-bottom">
+                    <p class="fa fa-map-marker"> <i id="element60"></i></p>
+                    <p class="fa fa-phone"> +359 895943128</p>
+                    <p class="fa fa-envelope"> monasteryfield@gmail.com</p>
+                </div>
+            </form>
+        </div>
+        <div class="contact-right">
+            <img src="img/address.png" alt="">
+        </div>
+     </main>
+     <footer>
+        <p id="element58"></p>
+    </footer>
+</section>
+</body>
+<script src="scripts/js/translation.js"></script>
+<script src="scripts/js/animation.js"></script>
+<script src="scripts/js/swichslidebutton.js"></script>
+</html>
