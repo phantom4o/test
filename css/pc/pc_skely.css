@@ -284,7 +284,7 @@ div.top {
 }
 div.top h1{
     font-size: 50px;
-    color: #ffffff;
+    color: #0c2c2b;
 }
 
 section.contact-sec main {
@@ -331,7 +331,7 @@ div.form-bottom p {
 }
 div.form-bottom p:hover{
     text-decoration: underline;
-    font-size: 26px;
+    color: #ffffff;
     
 }
 
