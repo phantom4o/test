@@ -64,10 +64,13 @@ window.addEventListener('scroll', function() {
 });
 
 // Loading Screen
-window.addEventListener('load', function() {
+function loader() {
     var loader = document.querySelector('.loader');
     setTimeout(function() {
-      loader.style.display = 'none';
-      document.body.style.overflowY = 'auto';
+        loader.style.display = 'none';
+        document.body.style.overflowY = 'auto';
     }, 700);
-  });
+}
+
+
+

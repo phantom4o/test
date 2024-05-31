@@ -220,6 +220,7 @@ ul.cerf_small_secntion li a:hover {
     width: 50%;
     display: flex;
     flex-direction: column;
+    margin: 0 50px;
 }
 
 .sec3-right-side,
@@ -228,6 +229,7 @@ ul.cerf_small_secntion li a:hover {
 .sec6-right-side {
     height: 100%;
     width: 50%;
+    margin: 0 50px;
 }
 
 /* FOOTER */

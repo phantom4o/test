@@ -69,4 +69,4 @@ The website supports both English and Bulgarian languages. You can toggle betwee
 - **Plovdiv, Bulgaria | +359 895943128 | monasteryfield@gmail.com**: Contact information.
 
 # TO DO:
-**CREATE CONTACT US FILE. AND ADD THE CETF.**
+**ADD THE CETF.**
