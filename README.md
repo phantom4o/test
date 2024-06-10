@@ -70,3 +70,4 @@ The website supports both English and Bulgarian languages. You can toggle betwee
 
 # TO DO:
 **ADD THE CETF.**
+**ADD SCROLL ANIMATION.**
