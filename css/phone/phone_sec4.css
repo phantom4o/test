@@ -17,11 +17,11 @@
         width: 150px;
     }
     section.holder section#sec4 div.bottom-part{
-        justify-content: start;
-        height: 100%;
-        top: -20px;
         display: flex;
         flex-direction: column;
+        align-items: center;
+        height: 100%;
+        top: -20px;
     }
     section.holder section#sec4 div.bottom-part div.sec4-left-side{
         margin-top: 35px;
@@ -46,6 +46,6 @@
     }
     section.holder section#sec4 div.sec4-left-side p{
         font-size: 16px;
-        width: 350px;
+        
     }
 }

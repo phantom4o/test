@@ -17,11 +17,11 @@
         width: 150px;
     }
      section.holder section#sec3 div.bottom-part{
-        justify-content: start;
+         display: flex;
+         flex-direction: column;
+        align-items: center;
         top: -20px;
         height: 100%;
-        display: flex;
-        flex-direction: column;
     }
     div.bottom-part div.sec3-left-side{
         align-items: center;

@@ -17,11 +17,11 @@
         width: 150px;
     }
     section.holder section#sec5 div.bottom-part{
-        justify-content: start;
-        height: 100%;
-        top: -20px;
         display: flex;
         flex-direction: column;
+        align-items: center;
+        height: 100%;
+        top: -20px;
     }
     section.holder section#sec5 div.bottom-part div.sec5-left-side{
         position: relative;

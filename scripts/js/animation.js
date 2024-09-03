@@ -63,14 +63,4 @@ window.addEventListener('scroll', function() {
     }
 });
 
-// Loading Screen
-function loader() {
-    var loader = document.querySelector('.loader');
-    setTimeout(function() {
-        loader.style.display = 'none';
-        document.body.style.overflowY = 'auto';
-    }, 700);
-}
-
-
 

@@ -1,6 +1,6 @@
 @media (max-width: 600px) {
     section.holder header {
-        flex-direction: row;
+        flex-direction: column;
     }
     
     section.holder header div.leftSide {
